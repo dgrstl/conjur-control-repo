@@ -14,7 +14,7 @@ mod "puppetlabs/java",       '1.4.1'
 
 # Conjur requirements
 mod "conjur/conjur",         :latest
-mod "gareth/docker",         :latest
+mod "garethr/docker",         :latest
 mod "puppetlabs/apt",        :latest
 mod "stahnma/epel",          :latest
 
