@@ -8,9 +8,11 @@ mod "puppetlabs/stdlib",     :latest
 mod "puppetlabs/concat",     :latest
 mod "puppetlabs/ntp",        :latest
 mod "saz/ssh",               :latest
-mod "puppetlabs/postgresql", '4.5.0'
-mod "puppet/stash",          '1.3.0'
-mod "puppetlabs/java",       '1.4.1'
+#mod "puppetlabs/postgresql", '4.5.0'
+#mod "puppet/stash",          '1.3.0'
+#mod "puppetlabs/java",       '1.4.1'
+mod "jpadams-puppet_vim_env" :latest
+mod "puppetlabs-vcsrepo"     :latest
 
 # Conjur requirements
 mod "conjur/conjur",         :latest
