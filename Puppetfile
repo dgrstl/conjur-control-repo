@@ -5,6 +5,7 @@ forge "http://forge.puppetlabs.com"
 # installed you should change them to the exact version you want
 mod "puppetlabs/inifile",     :latest
 mod "puppetlabs/stdlib",      :latest
+mod "pltraining/rbac",        :latest
 #mod "puppetlabs/concat",      :latest
 #mod "puppetlabs/ntp",         :latest
 #mod "saz/ssh",                :latest
