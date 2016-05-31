@@ -8,11 +8,12 @@ class profile::puppetmaster {
       'nodes/%{::trusted.certname}',
       'common',
     ],
-    hiera_yaml => $hiera_yaml,
-    datadir    => '/etc/puppetlabs/code/environments/%{environment}/hieradata',
-    owner      => 'pe-puppet',
-    group      => 'pe-puppet',
-    notify     => Service['pe-puppetserver'],
+    hiera_yaml         => $hiera_yaml,
+    datadir            => '/etc/puppetlabs/code/environments/%{environment}/hieradata',
+    owner              => 'pe-puppet',
+    group              => 'pe-puppet',
+    notify             => Service['pe-puppetserver'],
+    puppet_conf_manage => false,
   }
 
   ini_setting { 'puppet.conf hiera_config main section' :
