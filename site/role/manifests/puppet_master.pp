@@ -1,4 +1,4 @@
-class role::all_in_one_pe {
+class role::puppet_master {
 
   include profile::puppetmaster
   include profile::git_webhook
