@@ -26,5 +26,7 @@ mod "hunner/hiera",           :latest
 # Modules from Github using various references
 # Further examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 # update the tag to the most current release when implementing
-#mod 'hiera',
-#  :git => 'https://github.com/voxpupuli/puppet-hiera',
+
+mod 'firewall',
+  :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',
+  :ref => 'd33d0eb66d0b36ad9feecd2ade42f76a581612a1'
