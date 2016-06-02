@@ -1,2 +1,4 @@
 hieradata/nodes/example-puppet-master.yaml
 .onceover
+build
+modules
