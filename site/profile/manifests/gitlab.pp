@@ -45,7 +45,7 @@ class profile::gitlab {
   #}
   file { '/etc/gitlab/pe-demo-repos.tar.gz':
     ensure => present,
-    source => '/vagrant/pe-demo-repos.tar.gz',
+    source => '/vagrant/code/pe-demo-repos.tar.gz',
   }
 
   exec { '/etc/gitlab/init.sh && touch /etc/gitlab/init':
